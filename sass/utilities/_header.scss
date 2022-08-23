@@ -1,0 +1,17 @@
+@use 'variables';
+@use 'typography';
+
+
+.logo {
+  width: 200px;
+}
+
+header{
+  width: 100%;
+  margin: auto;
+  color: white;
+  background-color: variables.$color-blue;
+}
+
+
+

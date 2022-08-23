@@ -1,0 +1,16 @@
+@use 'variables';
+@use 'typography';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:variables.$font-fam1;
+    color: variables.$color-black;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}

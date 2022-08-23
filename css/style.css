@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333a40;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 200px;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  color: white;
+  background-color: #3382ed;
+}
+
+.addressInfo__item {
+  color: #333a40;
+  text-decoration: none;
+}
+
+.addressInfo--margin {
+  margin-left: 30px;
+}
+
+.footer__line {
+  border: 1px solid #333a40;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */
