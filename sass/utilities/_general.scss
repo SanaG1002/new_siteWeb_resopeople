@@ -5,12 +5,21 @@
     box-sizing: border-box;
 }
 
+
+img {
+    max-width: 100%;
+}
+
+
 body {
+	
     font-family:variables.$font-fam1;
     color: variables.$color-black;
     font-size: 18px;
 }
 
-img {
-    max-width: 100%;
+
+h2{
+   color: variables.$color-black;
 }
+

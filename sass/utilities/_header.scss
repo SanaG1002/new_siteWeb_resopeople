@@ -3,15 +3,38 @@
 
 
 .logo {
-  width: 200px;
+  width: 400px;
 }
 
 header{
   width: 100%;
   margin: auto;
-  color: white;
-  background-color: variables.$color-blue;
+  @extend%degradeDynamique;
 }
+
+.menuNav__link {
+  @extend%menuNavlink;
+  margin: 10px;
+  display: flex;
+  align-items: baseline;
+  border-radius: 50px;
+
+  &:hover {
+      @extend%menuNavlinkhover;
+      color: variables.$color-black;
+  }
+
+  &:focus {
+    @extend%menuNavlinkhover;
+    color: variables.$color-black;
+  }
+}
+
+.nav__btnResponsive {
+  color: black;
+  outline: none;
+}
+
 
 
 

@@ -6,3 +6,38 @@
     //color: variables.$color-black;
     //font-family: variables.$font-fam3;
 //}
+
+%menuNavlink {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: variables.$font-fam2;
+    padding: 10px;
+    color: variables.$color-grey2;
+}
+
+%menuNavlinkhover {
+    text-decoration: underline;
+}
+
+%degradeDynamique {
+    font-family:variables.$font-fam1;
+    color: variables.$color-black;
+    font-size: 18px;
+    
+	background: linear-gradient(-45deg, #3382ed, #84b0f2, #dae8fe, #edeff3);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
