@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <title>Travail pratique 3 : Site web RESO People</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=5, user-scalable=yes">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Menu -->
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container-fluid">
+        <div class="d-flex flex-row align-items-center justify-content-between w-100">
+          <h1> <img class="logo" src="./img/logo.png" alt="Logo RESO People"></h1>
+          <!-- Partie menu : bouton responsive -->
+          <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!-- Partie menu : items du menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
+            <li>
+              <a class="menuNav__link" href="solution.html">Solution</a></li>
+            <li>
+              <a class="menuNav__link" href="prix.html">Prix</a></li>
+            <li>
+              <a class="menuNav__link" href="entreprise.html">Entreprise</a></li>
+            <li>
+              <a class="menuNav__link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Partie menu : extention/presnetation -->
+    <section id="introSection">
+      <div class="container">
+        <div class="row d-flex flex-column align-items-center">
+          <div class="col-12 col-lg-8 text-center">
+            <h2> Créer votre application web simplement et
+              à moindre coût.
+            </h2>
+            <p class="introText__size">Notre Solution peut répondre à tous vos besoins, nous mettons à votre disposition
+              une plateforme
+              informatique
+              avec plusieurs modules.</p>
+            <img class="introImg" src="./img/image-accueil.png" alt="Image de présentation application">
+          </div>
+          <div class="col-12  text-center">
+            <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Demander une démo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-12 col-md-6 pt-2">
+          <div class="d-none d-md-block footerLine__vertical">
+            <ul class="d-flex flex-column align-items-center footerList__nav p-0">
+              <li><img class="footerLogo" src="./img/logo.png" alt=""></li>
+              <li> <a class="footerList__link" href="solution.html"> Notre produit</a></li>
+              <li> <a class="footerList__link" href="prix.html"> Notre entreprise</a></li>
+              <li><a class="footerList__link" href="entreprise.html">Nos prix</a> </li>
+              <li><a class="footerList__link" href="contact.html"> Démo</a> </li>
+            </ul>
+          </div>
+          <div class="d-md-none d-block footerLine__horizontal">
+            <ul class="d-flex flex-column align-items-center footerList__nav p-0">
+              <li><img class="footerLogo" src="./img/logo.png" alt=""></li>
+              <li> <a class="footerList__link" href="solution.html"> Notre produit</a></li>
+              <li> <a class="footerList__link" href="prix.html"> Notre entreprise</a></li>
+              <li><a class="footerList__link" href="entreprise.html">Nos prix</a> </li>
+              <li><a class="footerList__link" href="contact.html"> Démo</a> </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center mt-5">
+            <address class="addressInfo__item"><a href="tel:1-800-801-5321">1-800-801-5321</a>
+            </address>
+            <address class="addressInfo__item"><a href="mailto:info@resopeople.com">info@resopeople.com</a>
+            </address>
+            <ul class=" footerList__nav mt-5">
+              <li>
+                <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/facebook.png"
+                    alt="Lien facebook"></a>
+              </li>
+              <li><a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/instagram.png"
+                    alt="Lien instagram"></a>
+              </li>
+              <li> <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/twitter.png"
+                    alt="Lien tweeter"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footerPresentation__color">
+      <div class="text-center p-2">
+        <p>Sana Ghariani - CEGEP Trois rivière - Technique d'integration des interfaces web 2</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>

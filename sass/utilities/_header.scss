@@ -1,15 +1,11 @@
 @use 'variables';
 @use 'typography';
 
-
-.logo {
-  width: 400px;
+header {
+  background-color: variables.$color-grey2;
 }
-
-header{
-  width: 100%;
-  margin: auto;
-  @extend%degradeDynamique;
+.logo {
+  width: 50%;
 }
 
 .menuNav__link {
@@ -21,12 +17,12 @@ header{
 
   &:hover {
       @extend%menuNavlinkhover;
-      color: variables.$color-black;
+      color: variables.$color-grey;
   }
 
   &:focus {
     @extend%menuNavlinkhover;
-    color: variables.$color-black;
+    color: variables.$color-grey;
   }
 }
 
@@ -34,6 +30,7 @@ header{
   color: black;
   outline: none;
 }
+
 
 
 

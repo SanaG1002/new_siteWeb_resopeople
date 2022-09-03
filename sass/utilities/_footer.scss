@@ -2,19 +2,38 @@
 @use 'typography';
 
 
-.addressInfo__item {
-  color: variables.$color-black;
+footer {
+  background-color: variables.$color-grey;
+
+}
+
+
+.footerLogo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+
+.footerLine__vertical{
+  border-right: 1px solid variables.$color-grey3;
+}
+
+.footerList__nav li{
+  display: inline-block;
+  margin: 0 10px;
+  margin: 10px;
+}
+
+.footerList__link{
   text-decoration: none;
+  color: variables.$color-grey2;
+  &:hover {
+    color: variables.$color-grey2;
+    text-decoration: underline;
+}
 }
 
-.addressInfo--margin {
-  margin-left: 30px;
+.footerPresentation__color {
+  color: variables.$color-grey;
+  background-color: variables.$color-black;
 }
-
-
-.footer__line {
-  border: 1px solid variables.$color-black;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-

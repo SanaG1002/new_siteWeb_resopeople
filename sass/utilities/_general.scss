@@ -5,21 +5,41 @@
     box-sizing: border-box;
 }
 
-
 img {
     max-width: 100%;
 }
 
-
-body {
-	
-    font-family:variables.$font-fam1;
+body { 
+    background-color: variables.$color-white;
+    font-family: variables.$font-fam1;
     color: variables.$color-black;
     font-size: 18px;
 }
 
-
-h2{
-   color: variables.$color-black;
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: variables.$font-fam2;
 }
 
+h3 {
+   font-size: 40px;
+   font-weight: 600;
+   color: variables.$color-blue;
+    font-family: variables.$font-fam2;
+   
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600; 
+    color: variables.$color-blue;
+    font-family: variables.$font-fam2;
+}
+
+
+.line__horizontal{
+    border-bottom: 1px solid variables.$color-grey3;
+    width: 50%;
+    margin: 50px;
+}

@@ -15,9 +15,10 @@
 <body>
   <!-- Menu -->
   <header>
-    <nav class="navbar navbar-dark navbar-expand-md sectionBackground1">
+    <nav class="navbar navbar-dark navbar-expand-md">
       <div class="container-fluid">
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
+          <h1> <img class="logo" src="./img/logo.png" alt="Logo RESO People"></h1>
           <!-- Partie menu : bouton responsive -->
           <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -25,61 +26,225 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
+
         <!-- Partie menu : items du menu -->
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
             <li>
-              <a class="menuNav__link" href="index.html">Acceuil</a></li>
+              <a class="menuNav__link" href="solution.html">Solution</a></li>
             <li>
-              <a class="menuNav__link" href="tournage.html">Tournage</a></li>
+              <a class="menuNav__link" href="prix.html">Prix</a></li>
+            <li>
+              <a class="menuNav__link" href="entreprise.html">Entreprise</a></li>
+            <li>
+              <a class="menuNav__link" href="contact.html">Contact</a></li>
+            <li>
+              <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Démo</a>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="row">
-      <div class="col-9 text-center p-5">
-        <h1 class="m-2">
-          <img class="logo" src="./img/logo.png" alt="Logo RESO People">
-        </h1>
-        <h2 class="m-2"> vous propose sa solution People Hub Solution,
-          qui vous permet de créer votre propre plateforme informatique,
-          à moindre coût et sans contrainte technique.
-        </h2>
-        <button class="btn btn-dark m-2" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="slide-out-right">
-          En savoir plus
-        </button>
-        <img src="./img/image-accueil.png" alt="">
-
-      </div>
-      </div>
   </header>
 
   <main>
-    <!-- Partie image et extrait video du film -->
-    <section id="section2">
+    <!-- Partie menu : extention/presnetation -->
+    <section id="introSection">
       <div class="container">
-       
+        <div class="row d-flex flex-column align-items-center">
+          <div class="col-12 col-lg-8 text-center">
+            <h2> Créer votre application web simplement et
+              à moindre coût.
+            </h2>
+            <p class="introText__size">Notre Solution peut répondre à tous vos besoins, nous mettons à votre disposition
+              une plateforme informatique avec plusieurs modules.</p>
+            <img class="introImg" src="./img/image-accueil.png" alt="Image de présentation application">
+          </div>
+          <div class="col-12  text-center">
+            <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Demander une démo</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Partie presentation des acteurs/personnages du film -->
-    <section id="sectionActors">
-      <div class="container">
+    <section id="needSection">
+      <div class="container ">
+        <h3 class="text-center mb-5">Pourquoi utiliser la plateforme web People</h3>
+        <div class="card need__card pt-5 pb-5">
+          <div class="row d-flex align-items-center ">
+            <div class="col-lg-4">
+              <img src="./img/product/img-need3.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">Répondre aux besoins de votre organisation</h4>
+                <p class="card-text">La plateforme modulable People vous permet une création illimitée et une facilité
+                  de mise en place, pour répondre à tous vos besoins.
+                  Pour répondre à vos besoins multiples et simplifier la création de vos solution, RESO People vous
+                  propose une solution clé en main à moindre coût.
+                </p>
+                <a class="needCard__link" href="solution.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         
+    <div class="container d-flex flex-column align-items-center">
+      <div class="line__horizontal"></div>
+    </div>
+
+        <div class="card need__card pb-5">
+          <div class="row d-flex align-items-center flex-row-reverse">
+            <div class="col-lg-4">
+              <img src="./img/product/img-need1.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">Contrôler et maîtriser l’information</h4>
+                <p class="card-text">La plateforme People vous permet de reprendre le contrôle de l’information, et
+                  devient alors un outil précieux.
+                  RESO People vous permet de créer des outils web à votre image. Profitez d’une sécurité maximale, sans
+                  aucun effort,
+                  ni contrainte technique car vos espaces sont hébergés et maintenus par nos équipes.
+                </p>
+                <a class="needCard__link" href="solution.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    <div class="container d-flex flex-column align-items-center">
+      <div class="line__horizontal"></div>
+    </div>
+
+        <div class="card need__card pt-5 pb-5">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-4">
+              <img src="./img/product/img-need2.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title"> Exploitation des données</h4>
+                <p class="card-text">La platreforme web va vous permettre de centraliser et organiser vos informations.
+                  Toutes les plateformes web de RESO People, possèdent une des solution d'analyse de données, les plus
+                  puissantes du marché.
+                </p>
+                <a class="needCard__link" href="solution.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+
+
+    <section id="partnerSection">
+      <div class="container">
+        <div class="mb-5 text-center ">
+          <h3>Nos partenaires</h3>
+          <p>Aujourd’hui, il y a une vingtaine d'entreprises qui utilisent notre plateforme avec différents modules de
+            communication People.
+            Notre dernier client, Réseautage Montréal, utilise People pour optimiser le réseautage entre ses membres. Le
+            but étant que ses membres restent à l'affût des opportunités d'affaires en tout temps.
+          </p>
+
+          <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carouselPartner__img" src="./img/partner/reseautage_montreal.png" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="carouselPartner__img" src="./img/partner/aqt.png" alt="">
+              </div>
+              <div class="carousel-item btext-center">
+                <img class="carouselPartner__img" src="./img/partner/pme_montreal.jpg" alt="">
+              </div>
+              <div class="carousel-item btext-center">
+                <img class="carouselPartner__img" src="./img/partner/gestiplan.png" alt="">
+              </div>
+              <div class="carousel-item btext-center">
+                <img class="carouselPartner__img" src="./img/partner/simplevu.png" alt="">
+              </div>
+            </div>
+            <button class="carousel-control-prev carouselPartner__btn" type="button"
+              data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
     </section>
   </main>
 
   <!-- Pied de page -->
   <footer>
     <div class="container">
+      <div class="row p-5">
+        <div class="col-12 col-md-6 pt-2">
+          <div class="d-none d-md-block footerLine__vertical">
+            <ul class="d-flex flex-column align-items-center footerList__nav p-0">
+              <li><img class="footerLogo" src="./img/logo.png" alt=""></li>
+              <li> <a class="footerList__link" href="solution.html"> Notre produit</a></li>
+              <li> <a class="footerList__link" href="prix.html"> Notre entreprise</a></li>
+              <li><a class="footerList__link" href="entreprise.html">Nos prix</a> </li>
+              <li><a class="footerList__link" href="contact.html"> Démo</a> </li>
+            </ul>
+          </div>
+          <div class="d-md-none d-block line__horizontal">
+            <ul class="d-flex flex-column align-items-center footerList__nav p-0">
+              <li><img class="footerLogo" src="./img/logo.png" alt=""></li>
+              <li> <a class="footerList__link" href="solution.html"> Notre produit</a></li>
+              <li> <a class="footerList__link" href="prix.html"> Notre entreprise</a></li>
+              <li><a class="footerList__link" href="entreprise.html">Nos prix</a> </li>
+              <li><a class="footerList__link" href="contact.html"> Démo</a> </li>
+            </ul>
+          </div>
+        </div>
 
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center mt-5">
+            <address class="addressInfo__item"><a href="tel:1-800-801-5321">1-800-801-5321</a>
+            </address>
+            <address class="addressInfo__item"><a href="mailto:info@resopeople.com">info@resopeople.com</a>
+            </address>
+            <ul class=" footerList__nav mt-5">
+              <li>
+                <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/facebook.png"
+                    alt="Lien facebook"></a>
+              </li>
+              <li><a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/instagram.png"
+                    alt="Lien instagram"></a>
+              </li>
+              <li> <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/twitter.png"
+                    alt="Lien tweeter"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footerPresentation__color">
+      <div class="text-center p-2">
+        <p>Sana Ghariani - CEGEP Trois rivière - Technique d'integration des interfaces web 2</p>
+      </div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/6bf57fc038.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,21 @@
+@use 'variables';
+@use 'typography';
+
+#introSection {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: variables.$color-black;
+    background-color: variables.$color-grey2;
+}
+
+.introImg {
+    width: 60%;
+}
+
+.introBtn {
+   @extend%buttonPrimary;
+}
+
+.introText__size {
+    font-size: 25px;
+}
