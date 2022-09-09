@@ -1,0 +1,20 @@
+@use 'variables';
+@use 'typography';
+
+
+#descriptionSelection{
+    padding: 50px;
+}
+
+.descriptionCard__img{
+    max-width: 40%;
+}
+
+.descriptionCard__border {
+    border: none;
+}
+
+.descriptionCard__title {
+    font-size: 20px;
+    color: variables.$color-grey2;
+}

@@ -37,9 +37,17 @@ h4 {
     font-family: variables.$font-fam2;
 }
 
+span {
+    font-weight: none;
+}
+
 
 .line__horizontal{
     border-bottom: 1px solid variables.$color-grey3;
     width: 50%;
     margin: 50px;
+}
+
+td, th{
+    text-align: center;
 }
