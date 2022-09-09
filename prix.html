@@ -13,36 +13,38 @@
 </head>
 
 <body>
-  <!-- Menu -->
-  <header>
-    <nav class="navbar navbar-dark navbar-expand-md">
-      <div class="container-fluid">
-        <div class="d-flex flex-row align-items-center justify-content-between w-100">
-          <h1> <img class="logo" src="./img/logo.png" alt="Logo RESO People"></h1>
-          <!-- Partie menu : bouton responsive -->
-          <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-
-        <!-- Partie menu : items du menu -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
-            <li>
-              <a class="menuNav__link" href="solution.html">Solution</a></li>
-            <li>
-              <a class="menuNav__link" href="prix.html">Prix</a></li>
-            <li>
-              <a class="menuNav__link" href="entreprise.html">Entreprise</a></li>
-            <li>
-              <a class="menuNav__link" href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+ <!-- Menu -->
+ <header>
+  <nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container-fluid">
+      <div class="d-flex flex-row align-items-center justify-content-between w-100">
+        <h1> <a href="index.html"> <img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
+        <!-- Partie menu : bouton responsive -->
+        <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-    </nav>
-  </header>
+
+      <!-- Partie menu : items du menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
+          <li>
+            <a class="menuNav__link" href="solution.html">Solution</a></li>
+          <li>
+            <a class="menuNav__link" href="prix.html">Prix</a></li>
+          <li>
+            <a class="menuNav__link" href="entreprise.html">Entreprise</a></li>
+          <li>
+            <a class="menuNav__link" href="contact.html">Contact</a></li>
+          <li>
+            <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Démo</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
   <main>
     <section id="priceSection" >
@@ -70,15 +72,15 @@
               <th scope="col"></th>
               <th scope="col">
                <h4>Essentiel</h4> 
-              <p class="priceTable__price">554<span>CAD/mois</span></p>
+              <p class="priceNumber">554<span>CAD/mois</span></p>
               </th>
               <th scope="col">
               <h4>Standard</h4>  
-                <p>948<span>CAD/mois</span></p>
+                <p class="priceNumber">948<span>CAD/mois</span></p>
               </th>
               <th scope="col">
                 <h4>Performance</h4>
-                <p>1850<span>CAD/mois</span></p>
+                <p class="priceNumber">1850<span>CAD/mois</span></p>
               </th>
             </tr>
           </thead>

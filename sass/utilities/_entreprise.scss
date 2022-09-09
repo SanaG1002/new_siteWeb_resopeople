@@ -1,0 +1,14 @@
+@use 'variables';
+@use 'typography';
+
+
+
+#entrepriseSection{
+        background-image: url(../img/wave-entreprise.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 250px;
+        padding-left: 50px;
+        padding-right: 50px;
+}

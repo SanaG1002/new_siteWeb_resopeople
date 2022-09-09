@@ -20,6 +20,8 @@ h2 {
     font-size: 50px;
     font-weight: 600;
     font-family: variables.$font-fam2;
+    animation-duration: 10s;
+    animation-name: slidein2;
 }
 
 h3 {
@@ -31,16 +33,17 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600; 
-    color: variables.$color-blue;
+    color: variables.$color-black;
     font-family: variables.$font-fam2;
 }
 
 span {
-    font-weight: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: variables.$color-black;
 }
-
 
 .line__horizontal{
     border-bottom: 1px solid variables.$color-grey3;
@@ -48,6 +51,3 @@ span {
     margin: 50px;
 }
 
-td, th{
-    text-align: center;
-}

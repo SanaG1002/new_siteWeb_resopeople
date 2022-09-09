@@ -11,8 +11,15 @@
     margin-bottom: 100px;
 }
 
-.priceTable__price{
-    font-size: 20px;
+
+td, th{
+    text-align: center;
+}
+
+.priceNumber{
+    font-size: 27px;
+    color: variables.$color-black;
+    font-weight: 500;
 }
 
 .price__btn{

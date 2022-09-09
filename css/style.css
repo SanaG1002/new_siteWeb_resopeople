@@ -56,6 +56,8 @@ h2 {
   font-size: 50px;
   font-weight: 600;
   font-family: "Manrope", sans-serif;
+  animation-duration: 10s;
+  animation-name: slidein2;
 }
 
 h3 {
@@ -66,24 +68,22 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
-  color: #1264d3;
+  color: black;
   font-family: "Manrope", sans-serif;
 }
 
 span {
-  font-weight: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
 }
 
 .line__horizontal {
   border-bottom: 1px solid #aeafb1;
   width: 50%;
   margin: 50px;
-}
-
-td, th {
-  text-align: center;
 }
 
 header {
@@ -160,6 +160,48 @@ footer {
   font-size: 25px;
 }
 
+.animationLeft {
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%;
+  }
+  to {
+    margin-left: 0%;
+    width: 60%;
+  }
+}
+.animationOpacity {
+  animation-duration: 4s;
+  animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animationRight {
+  animation-duration: 6s;
+  animation-name: slidein3;
+}
+
+@keyframes slidein3 {
+  from {
+    margin-right: 100%;
+    display: contents;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
 #partnerSection {
   background: linear-gradient(45deg, #5c96ed 5%, #dae8fe 60%);
   padding: 50px;
@@ -216,11 +258,17 @@ footer {
   width: 100%;
 }
 
+.presentationPeople__bloc {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
 .side {
   position: absolute;
   width: 50vw;
   top: 0;
   bottom: 0;
+  margin-top: 200px;
   z-index: 10;
 }
 .side.left {
@@ -278,10 +326,26 @@ footer {
   margin-bottom: 100px;
 }
 
-.priceTable__price {
-  font-size: 20px;
+td, th {
+  text-align: center;
+}
+
+.priceNumber {
+  font-size: 27px;
+  color: black;
+  font-weight: 500;
 }
 
 .priceTable {
   padding-top: 150px;
+}
+
+#entrepriseSection {
+  background-image: url(../img/wave-entreprise.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
 }/*# sourceMappingURL=style.css.map */
