@@ -46,23 +46,80 @@
 
   <main>
     <!-- Partie menu : extention/presnetation -->
-    <section id="introSection">
+    <section id="contactSection">
       <div class="container">
-        <div class="row d-flex flex-column align-items-center">
-          <div class="col-12 col-lg-8 text-center">
-            <h2> Créer votre application web simplement et
-              à moindre coût.
-            </h2>
-            <p class="introText__size">Notre Solution peut répondre à tous vos besoins, nous mettons à votre disposition
-              une plateforme
-              informatique
-              avec plusieurs modules.</p>
-            <img class="introImg" src="./img/image-accueil.png" alt="Image de présentation application">
+        <h2>Contactez nous</h2>
+        <form id="form" action="/" onsubmit="return validateForm()">
+
+          <div class="mb-3 input-control">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" name="name" >
+            <div class="errorMessage"></div>
           </div>
-          <div class="col-12  text-center">
-            <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Demander une démo</a>
+
+          <div class="mb-3 input-control">
+            <label for="firstname" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="firstname" name="firstname">
+            <div class="errorMessage"></div>
           </div>
-        </div>
+
+          <div class="mb-3 input-control">
+            <label for="email" class="form-label">Courriel</label>
+            <input type="email" class="form-control" id="email" name="email">
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="mb-3 input-control">
+            <label for="phonenumber" class="form-label">Téléphone</label>
+            <input type="phone" class="form-control" id="phonenumber" name="phonenumber">
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="mb-3 input-control">
+            <label for="entreprisename" class="form-label">Nom de votre entreprise</label>
+            <input type="text" class="form-control" id="entreprisename" name="entreprisename">
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="mb-3 input-control">
+            <label for="province" class="form-label">Province/Territoir</label>
+            <select class="form-select" aria-label="Default select example" id="province" name="province">
+              <option selected>Choisire une Province</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="mb-3 form-check input-control">
+            <input type="checkbox" class="form-check-input" id="demo" name="demo">
+            <label class="form-check-label" for="demo">Cocher la case si vous souhaitez recevoir une démo de notre outil People</label>
+            <div class="errorMessage"></div>
+          </div>
+
+          <div class="form-floating input-control">
+            <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment"></textarea>
+            <label for="comment">Posez votre question ...</label>
+            <div class="errorMessage"></div>
+          </div>
+
+          <p>Vous souhaitez être contacté par :</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkphone" name="checkphone">
+            <label class="form-check-label" for="checkphone">
+              Par téléphone
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkemail" name="checkemail"  checked>
+            <label class="form-check-label" for="checkemail">
+              Par courriel
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </section>
   </main>
@@ -73,7 +130,7 @@
       <div class="row p-5">
         <div class="col-12 col-md-6 pt-2">
           <div class="d-none d-md-block footerLine__vertical">
-            <ul class="d-flex flex-column align-items-center footerList__nav p-0">
+            <ul class="d-flex flex-column align-items-center socialNetwork__icon p-0">
               <li><img class="footerLogo" src="./img/logo.png" alt=""></li>
               <li> <a class="footerList__link" href="solution.html"> Notre produit</a></li>
               <li> <a class="footerList__link" href="prix.html"> Notre entreprise</a></li>
@@ -82,7 +139,7 @@
             </ul>
           </div>
           <div class="d-md-none d-block footerLine__horizontal">
-            <ul class="d-flex flex-column align-items-center footerList__nav p-0">
+            <ul class="d-flex flex-column align-items-center socialNetwork__icon p-0">
               <li><img class="footerLogo" src="./img/logo.png" alt=""></li>
               <li> <a class="footerList__link" href="solution.html"> Notre produit</a></li>
               <li> <a class="footerList__link" href="prix.html"> Notre entreprise</a></li>
@@ -98,7 +155,7 @@
             </address>
             <address class="addressInfo__item"><a href="mailto:info@resopeople.com">info@resopeople.com</a>
             </address>
-            <ul class=" footerList__nav mt-5">
+            <ul class=" socialNetwork__icon mt-5">
               <li>
                 <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/facebook.png"
                     alt="Lien facebook"></a>
@@ -127,6 +184,8 @@
   </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="scripts/validation.js"></script>
 </body>
 
 </html>

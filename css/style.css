@@ -86,6 +86,54 @@ span {
   margin: 50px;
 }
 
+.socialNetwork__icon li {
+  display: inline-block;
+  margin: 0 10px;
+  margin: 10px;
+}
+
+.animationLeft {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%;
+  }
+  to {
+    margin-left: 0%;
+    width: 60%;
+  }
+}
+.animationOpacity {
+  animation-duration: 2s;
+  animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animationRight {
+  animation-duration: 4s;
+  animation-name: slidein3;
+}
+
+@keyframes slidein3 {
+  from {
+    margin-right: 100%;
+    display: contents;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
 header {
   background-color: #495560;
 }
@@ -125,12 +173,6 @@ footer {
   border-right: 1px solid #aeafb1;
 }
 
-.footerList__nav li {
-  display: inline-block;
-  margin: 0 10px;
-  margin: 10px;
-}
-
 .footerList__link {
   text-decoration: none;
   color: #495560;
@@ -160,53 +202,9 @@ footer {
   font-size: 25px;
 }
 
-.animationLeft {
-  animation-duration: 6s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 60%;
-  }
-  to {
-    margin-left: 0%;
-    width: 60%;
-  }
-}
-.animationOpacity {
-  animation-duration: 4s;
-  animation-name: slidein2;
-}
-
-@keyframes slidein2 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.animationRight {
-  animation-duration: 6s;
-  animation-name: slidein3;
-}
-
-@keyframes slidein3 {
-  from {
-    margin-right: 100%;
-    display: contents;
-  }
-  to {
-    margin-right: 0%;
-  }
-}
 #partnerSection {
-  background: linear-gradient(45deg, #5c96ed 5%, #dae8fe 60%);
+  background-color: #c9d5e5;
   padding: 50px;
-  border-top: 1px solid #1264d3;
-  border-bottom: 1px solid #1264d3;
 }
 
 .carouselPartner__img {
@@ -215,10 +213,6 @@ footer {
   background-size: contain;
   width: 250px;
   height: 165px;
-}
-
-.partener__title--color {
-  color: #495560;
 }
 
 #needSection {
@@ -348,4 +342,79 @@ td, th {
   padding-bottom: 250px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+#teamSection {
+  padding: 50px;
+}
+
+.teamCard {
+  border: none;
+  position: relative;
+}
+
+.teamCard:hover .teamCard__overlay {
+  opacity: 1;
+}
+
+.teamCard__img {
+  width: 200px;
+  clip-path: ellipse(50% 50%);
+  display: block;
+  cursor: pointer;
+}
+
+.teamlogoLinkedin__img {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.teamCard__overlay {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(73, 85, 96, 0.7019607843);
+  clip-path: ellipse(50% 50%);
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: green;
+}
+
+.input-control.error input {
+  border-color: red;
+}
+
+.input-control .errorMessage {
+  color: red;
+  font-size: 9px;
+  height: 13px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+@use 'variables';
+@use 'typography';
+
+#teamSection{
+    padding: 50px;
+}
+
+.teamCard{
+    border: none;
+    position: relative;
+}
+.teamCard:hover .teamCard__overlay{
+    opacity: 1;
+}
+
+.teamCard__img{
+    width:200px;
+   clip-path:ellipse(50% 50%);
+   display: block;
+   cursor: pointer;
+}
+
+.teamlogoLinkedin__img {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  
+.teamCard__overlay {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #495560b3;
+    clip-path:ellipse(50% 50%);
+  }
+  

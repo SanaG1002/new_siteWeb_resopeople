@@ -2,10 +2,8 @@
 @use 'typography';
 
 #partnerSection {
-    background: variables.$color-degrade;
+    background-color: variables.$color-blue3;
     padding: 50px;
-    border-top: 1px solid variables.$color-blue;
-    border-bottom: 1px solid variables.$color-blue;
 }
 
 .carouselPartner__img {
@@ -14,9 +12,5 @@
     background-size: contain;
     width: 250px;
     height: 165px;
-}
-
-.partener__title--color{
-    color: variables.$color-grey2;
 }
 
