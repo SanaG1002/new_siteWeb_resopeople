@@ -15,12 +15,13 @@
 <body>
   <!-- Menu -->
   <header>
-    <nav class="navbar navbar-dark navbar-expand-md">
+
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
       <div class="container-fluid">
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
-          <h1> <a href="index.html"> <img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
+          <h1><a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
           <!-- Partie menu : bouton responsive -->
-          <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,16 +29,20 @@
         </div>
 
         <!-- Partie menu : items du menu -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
             <li>
               <a class="menuNav__link" href="solution.html">Solution</a></li>
             <li>
               <a class="menuNav__link" href="prix.html">Prix</a></li>
             <li>
-              <a class="menuNav__link" href="entreprise.html">Entreprise</a></li>
+              <a class="menuNav__link" href="entreprise.html">Entreprise</a>
+            </li>
             <li>
               <a class="menuNav__link" href="contact.html">Contact</a></li>
+            <li>
+              <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Démo</a>
           </ul>
         </div>
       </div>
@@ -48,77 +53,118 @@
     <!-- Partie menu : extention/presnetation -->
     <section id="contactSection">
       <div class="container">
-        <h2>Contactez nous</h2>
-        <form id="form" action="/" onsubmit="return validateForm()">
 
-          <div class="mb-3 input-control">
-            <label for="name" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="name" name="name" >
-            <div class="errorMessage"></div>
+        <form id="form" action="confirmation.html" onsubmit="return validateForm()">
+
+          <div class="mb-5">
+            <h2>Contactez nous</h2>
+            <p>Que ce soit pour nous poser une question, partager un commentaire ou nous demander une démo, nous mettons
+              à votre disposition notre formulaire.
+            </p>
           </div>
 
-          <div class="mb-3 input-control">
-            <label for="firstname" class="form-label">Prénom</label>
-            <input type="text" class="form-control" id="firstname" name="firstname">
-            <div class="errorMessage"></div>
-          </div>
+          <div class="row">
 
-          <div class="mb-3 input-control">
-            <label for="email" class="form-label">Courriel</label>
-            <input type="email" class="form-control" id="email" name="email">
-            <div class="errorMessage"></div>
-          </div>
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="name" class="form-label">Nom <span>*</span></label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Entrer votre nom" autofocus>
+                <div class="errorMessage"></div>
+              </div>
+            </div>
 
-          <div class="mb-3 input-control">
-            <label for="phonenumber" class="form-label">Téléphone</label>
-            <input type="phone" class="form-control" id="phonenumber" name="phonenumber">
-            <div class="errorMessage"></div>
-          </div>
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="firstname" class="form-label">Prénom <span>*</span></label>
+                <input type="text" class="form-control" id="firstname" name="firstname"
+                  placeholder="Entrer votre prénom">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
 
-          <div class="mb-3 input-control">
-            <label for="entreprisename" class="form-label">Nom de votre entreprise</label>
-            <input type="text" class="form-control" id="entreprisename" name="entreprisename">
-            <div class="errorMessage"></div>
-          </div>
+            <div class="col-12 mb-3">
+              <div class="mb-3 input-control">
+                <label for="entreprisename" class="form-label">Nom de votre entreprise</label>
+                <input type="text" class="form-control" id="entreprisename" name="entreprisename" placeholder="Entrer le nom de votre entreprise">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
 
-          <div class="mb-3 input-control">
-            <label for="province" class="form-label">Province/Territoir</label>
-            <select class="form-select" aria-label="Default select example" id="province" name="province">
-              <option selected>Choisire une Province</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <div class="errorMessage"></div>
-          </div>
+            <div class="col-12 mb-3">
+              <div class="mb-3 input-control">
+                <label for="province" class="form-label">Choisir votre Province ou Territoir</label>
+                <select class="form-select" aria-label="Default select example" id="province" name="province">
+                  <option selected>Choisire une Province</option>
+                  <option value="Al">Alberta</option>
+                  <option value="CB">Colombie-Britannique</option>
+                  <option value="IPE">Île-du Prince-Edouard</option>
+                  <option value="Ma">Manitoba</option>
+                  <option value="NB">Nouveau-Brunswick</option>
+                  <option value="NE">Nouvelle-Ecosse</option>
+                  <option value="Nu">Nunavut</option>
+                  <option value="On">Ontario</option>
+                  <option value="Qc">Québec</option>
+                  <option value="Sa">Saskatchewan</option>
+                  <option value="TNL">Terre-Neuve-et-Labrador</option>
+                  <option value="TNO">Territoires du Nord-Ouest</option>
+                  <option value="Yu">Yukon</option>
+                </select>
+                <div class="errorMessage"></div>
+              </div>
+            </div>
 
-          <div class="mb-3 form-check input-control">
-            <input type="checkbox" class="form-check-input" id="demo" name="demo">
-            <label class="form-check-label" for="demo">Cocher la case si vous souhaitez recevoir une démo de notre outil People</label>
-            <div class="errorMessage"></div>
-          </div>
+            <div class="col-12 mb-3">
+              <div class="form-floating input-control">
+                <textarea placeholder="Posez votre question ..." id="comment" name="comment" maxlength="350"></textarea>
+                <label for="comment"></label>
+                <div class="errorMessage"></div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="demo" name="demo">
+                <label class="form-check-label" for="demo"> Je souhaite recevoir la documentation de RESO People inc.</label>
+                <div class="errorMessage"></div>
+              </div>
+            </div>
 
-          <div class="form-floating input-control">
-            <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment"></textarea>
-            <label for="comment">Posez votre question ...</label>
-            <div class="errorMessage"></div>
-          </div>
+            <div class="container d-flex flex-column align-items-center">
+              <div class="line__horizontal"></div>
+            </div>
 
-          <p>Vous souhaitez être contacté par :</p>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkphone" name="checkphone">
-            <label class="form-check-label" for="checkphone">
-              Par téléphone
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkemail" name="checkemail"  checked>
-            <label class="form-check-label" for="checkemail">
-              Par courriel
-            </label>
-          </div>
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="email" class="form-label">Courriel<span>*</span></label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="xyz@mail.com">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="phonenumber" class="form-label">Téléphone</label>
+                <input type="tel" class="form-control" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Entrer votre numéro de téléphone">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 mb-3 ">
+              <p>Je souhaite être contacté par : </p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="checkemail" name="checkeradio" checked>
+                <label class="form-check-label" for="checkemail">
+                  Par courriel
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="checkphone" name="checkeradio">
+                <label class="form-check-label" for="checkphone">
+                  Par téléphone
+                </label>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column flex-md-row-reverse">
+              <button type="submit" class="btn contactBtn ">Envoyer</button>
+            </div>
         </form>
       </div>
     </section>

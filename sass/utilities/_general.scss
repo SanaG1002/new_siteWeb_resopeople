@@ -10,17 +10,23 @@ img {
 }
 
 body { 
-    background-color: variables.$color-white;
+    background-color: variables.$color-grey2;
     font-family: variables.$font-fam1;
     color: variables.$color-black;
     font-size: 18px;
+    padding-top:115px;
 }
+
+main{
+  background-color: variables.$color-white;
+}
+
 
 h2 {
     font-size: 50px;
     font-weight: 600;
     font-family: variables.$font-fam2;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-name: slidein2;
 }
 
@@ -44,6 +50,7 @@ span {
     font-size: 18px;
     color: variables.$color-black;
 }
+
 
 .line__horizontal{
     border-bottom: 1px solid variables.$color-grey3;
@@ -73,7 +80,6 @@ span {
       width: 60%;
     }
   }
-
 
 .animationOpacity {
     animation-duration: 2s;

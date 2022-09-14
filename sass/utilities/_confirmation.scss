@@ -1,0 +1,12 @@
+@use 'variables';
+@use 'typography';
+
+#confirmationSection {
+    background-color: variables.$color-black;
+    color: variables.$color-grey3;
+}
+
+.confirmation__img{
+    width: 40%;
+    
+}

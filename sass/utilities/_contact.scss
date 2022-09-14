@@ -1,38 +1,103 @@
 @use 'variables';
 @use 'typography';
 
+#contactSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: variables.$color-black;
+}
 
-.input-control{
+#form {
+    border: 1px solid variables.$color-black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: variables.$color-black;
+    color: variables.$color-grey3;
+}
+
+textarea {
+    min-height: 300px;
+}
+
+.contactBtn {
+    @extend%buttonPrimary;
+}
+
+.input-control {
     display: flex;
     flex-direction: column;
 }
 
-.input-control input{
-    border: 2px solid #f0f0f0;
+.input-control input {
+    border: 2px solid variables.$color-grey3;
     border-radius: 4px;
     display: block;
     font-size: 12px;
     padding: 10px;
     width: 100%;
+    background-color: variables.$color-grey3;
+    color: variables.$color-black;
+}
+
+.input-control input:focus {
+    outline: 0;
 }
 
 
-.input-control input:focus{
-   outline: 0;
+.input-control.success input {
+    border:3px solid green;
 }
 
+.input-control.error input {
+    border:3px solid red;
+}
 
-.input-control.success input{
-    border-color: green;
- }
+.input-control .errorMessage {
+    color: red;
+    font-size: 12px;
+    height: 13px
+}
 
-.input-control.error input{
-    border-color: red;
- }
+form span {
+    color: variables.$color-blue;
+}
 
-.input-control .errorMessage{
-   color: red;
-   font-size: 9px;
-   height:13px
- }
+.input-control input:focus {
+    background-color: variables.$color-grey;
+    border:2px solid variables.$color-blue;
+}
 
+.input-control input:hover {
+    background-color: variables.$color-grey;
+    border:2px solid variables.$color-blue;
+}
+
+textarea{
+    background-color: variables.$color-grey3;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    background-color: variables.$color-grey;
+    border:3px solid variables.$color-blue;
+}
+
+textarea:hover {
+    background-color: variables.$color-grey;
+    border-color:variables.$color-blue;
+    border:3px solid variables.$color-blue;
+}
+
+.input-control select {
+    background-color: variables.$color-grey3;
+}
+
+.input-control select:focus {
+    background-color: variables.$color-grey;
+     border:2px solid variables.$color-blue;
+}
+
+.input-control select:hover {
+    background-color: variables.$color-grey;
+    border:2px solid variables.$color-blue;
+}

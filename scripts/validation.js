@@ -3,27 +3,13 @@ const form = document.getElementById('form');
 const name = document.getElementById('name');
 const firstname = document.getElementById('firstname');
 const email = document.getElementById('email');
-const phonenumber = document.getElementById('phonenumber');
-const entreprisename = document.getElementById('entreprisename');
-const province = document.getElementById('province');
-const demo = document.getElementById('demo');
-const comment = document.getElementById('comment');
-const checkphone = document.getElementById('checkphone');
-const checkemail = document.getElementById('checkemail');
-
 
 const validateForm = () => {
 let noError = true;
 const nameValue = name.value.trim();
 const firstnameValue = firstname.value.trim();
 const emailValue = email.value.trim();
-const phonenumberValue = phonenumber.value.trim();
-const entreprisenameValue = entreprisename.value.trim();
-const provinceValue = province.value.trim();
-const demoValue = demo.value.trim();
-const commentValue = comment.value.trim();
-const checkphoneValue = checkphone.value.trim();
-const checkemailValue = checkemail.value.trim();
+
 
 
 const isValidEmail = email => {

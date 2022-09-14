@@ -4,6 +4,16 @@
 header {
   background-color: variables.$color-grey2;
 }
+
+.navbar__bg{
+  background-color: variables.$color-grey2;
+}
+
+.navbarResponsive__bg {
+  background-color: variables.$color-grey2;
+  width: 100%;
+}
+
 .logo {
   width: 50%;
 }
@@ -17,7 +27,7 @@ header {
 
   &:hover {
       @extend%menuNavlinkhover;
-      color: variables.$color-grey;
+      color: variables.$color-black;
   }
 
   &:focus {
@@ -29,6 +39,20 @@ header {
 .nav__btnResponsive {
   color: black;
   outline: none;
+}
+
+.modal__bg {
+  background-color: variables.$color-black;
+  color: variables.$color-grey3;
+}
+
+.modalTitle {
+  color: variables.$color-blue2;
+}
+
+.modalText {
+  color: variables.$color-blue2;
+  font-size: 22px;
 }
 
 

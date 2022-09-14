@@ -15,12 +15,13 @@
 <body>
   <!-- Menu -->
   <header>
-    <nav class="navbar navbar-dark navbar-expand-md">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg pr-3 pl-3">
+    
       <div class="container-fluid">
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
-          <h1> <a href="index.html"> <img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
+         <h1><a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
           <!-- Partie menu : bouton responsive -->
-          <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,19 +29,22 @@
         </div>
 
         <!-- Partie menu : items du menu -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
             <li>
               <a class="menuNav__link" href="solution.html">Solution</a></li>
             <li>
               <a class="menuNav__link" href="prix.html">Prix</a></li>
             <li>
-              <a class="menuNav__link" href="entreprise.html">Entreprise</a></li>
+              <a class="menuNav__link" href="entreprise.html">Entreprise</a>
+            </li>
             <li>
               <a class="menuNav__link" href="contact.html">Contact</a></li>
+            <li>
+              <a href="#" class="btn introBtn" role="button" data-bs-toggle="button">Démo</a>
           </ul>
         </div>
-      </div>
+  </div>
     </nav>
   </header>
 
