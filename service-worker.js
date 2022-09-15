@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v9';
+const CACHE_NAME = 'static-cache-v10';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -58,6 +58,9 @@ evt.waitUntil(
 self.skipWaiting();
 });
 
+
+
+
 self.addEventListener('activate', (evt) => {
 console.log('[ServiceWorker] Activate');
 
@@ -77,10 +80,11 @@ evt.waitUntil(
     self.clients.claim();
 });
 
+
 self.addEventListener('fetch', (evt) => {
-console.log('[ServiceWorker] Fetch', evt.request.url);
-//Add fetch event handler here.
-if (evt.request.mode !== 'navigate') {
+    console.log('[ServiceWorker] Fetch', evt.request.url);
+    //Add fetch event handler here.
+    if (evt.request.mode !== 'navigate') {
     // Not a page navigation, bail.
     return;
     }
@@ -93,4 +97,5 @@ if (evt.request.mode !== 'navigate') {
     });
     })
     );
-});
+    });
+
