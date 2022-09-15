@@ -1,6 +1,22 @@
 {
     "name": "RESO People inc.",
     "short_name": "People",
+    "icons": [{
+        "src": "/tp3_site_resopeople/icons/maskable_icon_x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "rpose" : "any maskable"
+        }, {
+        "src": "/tp3_site_resopeople/icons/maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose" : "any maskable"
+        }, {
+        "src": "/tp3_site_resopeople/icons/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose" : "any maskable"
+        }],
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
