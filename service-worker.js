@@ -1,8 +1,9 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v8';
+const CACHE_NAME = 'static-cache-v9';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
+    'offline.html',
     'index.html',
     'solution.html',
     'prix.html',
@@ -88,7 +89,7 @@ if (evt.request.mode !== 'navigate') {
     .catch(() => {
     return caches.open(CACHE_NAME)
     .then((cache) => {
-    return cache.match('/tp3_site_resopeople/index.html' );
+    return cache.match('/tp3_site_resopeople/offline.html' );
     });
     })
     );
