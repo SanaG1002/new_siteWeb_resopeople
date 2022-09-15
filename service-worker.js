@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v19';
+const CACHE_NAME = 'static-cache-v20';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -10,6 +10,9 @@ const FILES_TO_CACHE = [
     'entreprise.html',
     'contact.html',
     'confirmation.html',
+    'css/style.css',
+    'css/normalize.css',
+    'scripts/validation.js',
     'img/logo.png',
     'img/conf-message.png',
     'img/image-accueil.png',
