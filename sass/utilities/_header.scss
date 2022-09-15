@@ -29,11 +29,15 @@ header {
       @extend%menuNavlinkhover;
       color: variables.$color-black;
   }
-
   &:focus {
     @extend%menuNavlinkhover;
     color: variables.$color-grey;
   }
+}
+
+.menuNav__hover {
+  @extend%menuNavlinkhover;
+  color: variables.$color-black;
 }
 
 .nav__btnResponsive {

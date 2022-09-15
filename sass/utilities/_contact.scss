@@ -29,13 +29,13 @@ textarea {
 }
 
 .input-control input {
-    border: 2px solid variables.$color-grey3;
+    border: 2px solid variables.$color-grey;
     border-radius: 4px;
     display: block;
     font-size: 12px;
     padding: 10px;
     width: 100%;
-    background-color: variables.$color-grey3;
+    background-color: variables.$color-grey;
     color: variables.$color-black;
 }
 
@@ -63,41 +63,40 @@ form span {
 }
 
 .input-control input:focus {
-    background-color: variables.$color-grey;
+    background-color: variables.$color-blue2;
     border:2px solid variables.$color-blue;
 }
 
 .input-control input:hover {
-    background-color: variables.$color-grey;
+    background-color: variables.$color-blue2;
     border:2px solid variables.$color-blue;
 }
 
 textarea{
-    background-color: variables.$color-grey3;
+    background-color: variables.$color-grey;
     border-radius: 5px;
 }
 
 textarea:focus {
-    background-color: variables.$color-grey;
+    background-color: variables.$color-blue2;
     border:3px solid variables.$color-blue;
 }
 
 textarea:hover {
-    background-color: variables.$color-grey;
-    border-color:variables.$color-blue;
+    background-color: variables.$color-blue2;
     border:3px solid variables.$color-blue;
 }
 
 .input-control select {
-    background-color: variables.$color-grey3;
+    background-color: variables.$color-grey;
 }
 
 .input-control select:focus {
-    background-color: variables.$color-grey;
+    background-color: variables.$color-blue2;
      border:2px solid variables.$color-blue;
 }
 
 .input-control select:hover {
-    background-color: variables.$color-grey;
+    background-color: variables.$color-blue2;
     border:2px solid variables.$color-blue;
 }
