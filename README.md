@@ -6,4 +6,6 @@
 # SANA GHARIANI 
 # Groupe 1041
 
+# Lien du site vers la page de présentation : https://sanag1002.github.io/tp3_site_resopeople/
+
 

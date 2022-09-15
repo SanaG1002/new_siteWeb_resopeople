@@ -1,0 +1,28 @@
+{
+    "name": "RESO People inc.",
+    "short_name": "People",
+    "icons":[{
+        "src": "",
+        "sizes": "",
+        "type": "",
+        "purpose": "any maskable"
+    }, {
+
+    }, {
+
+    }],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#495560"
+    }
+
+
+
+
+
+
+
+
+
+
