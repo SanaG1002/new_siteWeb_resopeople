@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v2';
+const CACHE_NAME = 'static-cache-v4';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -17,31 +17,32 @@ const FILES_TO_CACHE = [
     'wave-entreprise.png',
     'wave-price.png',
     'wave-solution.png',
-    'facebook.png',
-    'instagram.png',
-    'linkedin-logo.png',
-    'twitter.png',
-    'img-need1.png',
-    'img-need2.png',
-    'img-need3.png',
-    'aqt.png',
-    'gestiplan.png',
-    'pme-montreal.jpg',
-    'reseautage_montreal.png',
-    'simplevu.png',
-    'icon-analysis.png',
-    'icon-api.png',
-    'icon-comunication.png',
-    'icon-configuration.png',
-    'icon-customization.png',
-    'icon-data-storage.png',
-    'icon-moderation.png',
-    'icon-module.png',
-    'icon-security.png',
-    'icon-team-work.png',
-    'MatthieuSymoens.png',
-    'SanaGhariani.png',
-    'SergeBouzid.png'
+    'icon-social-network/facebook.png',
+    'icon-social-network/instagram.png',
+    'icon-social-network/linkedin-logo.png',
+    'icon-social-network/twitter.png',
+    'need/img-need1.png',
+    'need/img-need2.png',
+    'need/img-need3.png',
+    'partner/aqt.png',
+    'partner/gestiplan.png',
+    'partner/pme-montreal.jpg',
+    'partner/reseautage_montreal.png',
+    'partner/simplevu.png',
+    'product/icon-analysis.png',
+    'product/icon-api.png',
+    'product/icon-comunication.png',
+    'product/icon-configuration.png',
+    'product/icon-customization.png',
+    'product/icon-data-storage.png',
+    'product/icon-moderation.png',
+    'product/icon-module.png',
+    'product/icon-security.png',
+    'product/icon-team-work.png',
+    'team/MatthieuSymoens.png',
+    'team/SanaGhariani.png',
+    'team/SergeBouzid.png',
+    'scripts/validation.js'
 ];
 
 self.addEventListener('install', (evt) => {
