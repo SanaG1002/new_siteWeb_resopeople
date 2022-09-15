@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v21';
+const CACHE_NAME = 'static-cache-v22';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -10,7 +10,43 @@ const FILES_TO_CACHE = [
     'entreprise.html',
     'contact.html',
     'confirmation.html',
-  
+    'css/style.css',
+    'css/normalize.css',
+    'scripts/validation.js',
+    'img/logo.png',
+    'img/conf-message.png',
+    'img/image-accueil.png',
+    'img/img-people-dynam1.png',
+    'img/img-people-dynam1.png',
+    'img/wave-entreprise.png',
+    'img/wave-price.png',
+    'img/wave-solution.png',
+    'icon-social-network/facebook.png',
+    'icon-social-network/instagram.png',
+    'icon-social-network/linkedin-logo.png',
+    'icon-social-network/twitter.png',
+    'need/img-need1.png',
+    'need/img-need2.png',
+    'need/img-need3.png',
+    'partner/aqt.png',
+    'partner/gestiplan.png',
+    'partner/pme-montreal.jpg',
+    'partner/reseautage_montreal.png',
+    'partner/simplevu.png',
+    'product/icon-analysis.png',
+    'product/icon-api.png',
+    'product/icon-comunication.png',
+    'product/icon-configuration.png',
+    'product/icon-customization.png',
+    'product/icon-data-storage.png',
+    'product/icon-moderation.png',
+    'product/icon-module.png',
+    'product/icon-security.png',
+    'product/icon-team-work.png',
+    'team/MatthieuSymoens.png',
+    'team/SanaGhariani.png',
+    'team/SergeBouzid.png',
+    'scripts/validation.js'
 ];
 
 self.addEventListener('install', (evt) => {
