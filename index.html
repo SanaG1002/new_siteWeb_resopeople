@@ -19,6 +19,17 @@
 <link rel="apple-touch-icon" href="/tp3_site_resopeople/img/icons/maskable_icon_x144.png">
 <meta name="theme-color" content="#495560" />
 <meta name="description" content="Site web de RESO People inc.">
+<script>
+// Register service worker.
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', () => {
+navigator.serviceWorker.register('service-worker.js')
+.then((reg) => {
+console.log('Le service worker est chargé !', reg);
+});
+});
+}
+</script>
 </head>
 
 <body>
@@ -117,7 +128,7 @@
         <div class="card need__card pt-5 pb-5">
           <div class="row d-flex align-items-center ">
             <div class="col-lg-4">
-              <img src="./img/product/img-need3.png" class="img-fluid rounded-start" alt="...">
+              <img src="./img/need/img-need3.png" class="img-fluid rounded-start" alt="Image illustration répondre aux besoins de votre organisation">
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -140,7 +151,7 @@
         <div class="card need__card pb-5">
           <div class="row d-flex align-items-center flex-row-reverse">
             <div class="col-lg-4">
-              <img src="./img/product/img-need1.png" class="img-fluid rounded-start" alt="...">
+              <img src="./img/need/img-need1.png" class="img-fluid rounded-start" alt="Image illustration contrôler et maîtriser l’information">
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -165,7 +176,7 @@
         <div class="card need__card pt-5 pb-5">
           <div class="row d-flex align-items-center">
             <div class="col-lg-4">
-              <img src="./img/product/img-need2.png" class="img-fluid rounded-start" alt="...">
+              <img src="./img/need/img-need2.png" class="img-fluid rounded-start" alt="Image illustration exploitation des données">
             </div>
             <div class="col-lg-8">
               <div class="card-body">
