@@ -5,18 +5,21 @@ header {
   background-color: variables.$color-grey2;
 }
 
-.menubar {
-  background-color: variables.$color-black;
-}
-
 .btnInstall {
-  padding: 5px;
-  background-color: variables.$color-blue2;
-}
+    background-color: variables.$color-blue2;
+      color: variables.$color-black;
+      font-size: 23px;
+      border-radius: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-right: 20px;
+    &:hover{
+      background-color: #0f4a9b;
+      color: variables.$color-white;
+      border-color: #0f4a9b;
+    }
+  }
 
-.textInstall{
-  color: variables.$color-blue2;
-}
 
 .navbar__bg{
   background-color: variables.$color-grey2;
