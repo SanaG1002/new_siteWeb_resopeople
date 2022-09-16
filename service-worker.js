@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v25';
+const CACHE_NAME = 'static-cache-v26';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -13,7 +13,14 @@ const FILES_TO_CACHE = [
     'css/style.css',
     'css/normalize.css',
     'scripts/validation.js',
-   
+    'img/logo.png',
+    'img/conf-message.png',
+    'img/image-accueil.png',
+    'img/img-people-dynam1.png',
+    'img/img-people-dynam2.png',
+    'img/wave-entreprise.png',
+    'img/wave-price.png',
+    'img/wave-solution.png',
 ];
 
 self.addEventListener('install', (evt) => {
