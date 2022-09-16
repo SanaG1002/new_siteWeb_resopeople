@@ -157,6 +157,14 @@ header {
   background-color: #495560;
 }
 
+.menubar {
+  background-color: black;
+}
+
+.btnInstall {
+  padding: 10px;
+}
+
 .navbar__bg {
   background-color: #495560;
 }
@@ -288,7 +296,7 @@ footer {
 }
 
 #presentationSection {
-  background-image: url(../img/wave-price.png);
+  background-image: url(../img/wave-solution.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
@@ -359,11 +367,11 @@ footer {
 }
 
 #priceSection {
-  padding: 50px;
   background-image: url(../img/wave-price.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100px;
+  padding: 50px;
 }
 
 td, th {
