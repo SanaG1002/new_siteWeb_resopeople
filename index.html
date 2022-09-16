@@ -13,12 +13,12 @@
   <link rel="manifest" href="manifest.json" />
 
   <!-- Add iOS meta tags and icons -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
-<meta name="apple-mobile-web-app-title" content="RESO People inc.">
-<link rel="apple-touch-icon" href="/img/icons/maskable_icon_x144.png">
-<meta name="theme-color" content="#495560" />
-<meta name="description" content="Site web de RESO People inc.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="RESO People inc.">
+  <link rel="apple-touch-icon" href="/img/icons/maskable_icon_x144.png">
+  <meta name="theme-color" content="#495560" />
+  <meta name="description" content="Site web de RESO People inc.">
 
 
 </head>
@@ -28,17 +28,14 @@
   <header>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
       <div class="container-fluid">
-       
+
 
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
-       <div>  
-       <!-- Logo -->
-        <h1><img class="logo" src="./img/logo.png" alt="Logo RESO People"></h1>
 
-        <!-- Bouton PWA -->
-        <button class="nav-link px-lg-4 px-2 btnInstall text-center" id="btnInstall" aria-label="Install" hidden> <p>Installer RESO People inc.</p><i class="fa-solid fa-download"></i> </button>
-      </div>  
-        
+          <!-- Logo -->
+          <h1><img class="logo" src="./img/logo.png" alt="Logo RESO People"></h1>
+
+
           <!-- Partie menu : bouton responsive -->
           <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -49,7 +46,8 @@
 
         <!-- Partie menu : items du menu -->
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
             <li>
               <a class="menuNav__link" href="solution.html">Solution</a></li>
             <li>
@@ -58,13 +56,22 @@
               <a class="menuNav__link" href="entreprise.html">Entreprise</a>
             </li>
             <li>
-              <a class="menuNav__link" href="contact.html">Contact</a></li>
+              <a class="menuNav__link" href="contact.html">Contact</a>
+            </li>
             <li>
-              <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal" data-bs-whatever="@fat">Démo</button>
- 
+              <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal"
+                data-bs-whatever="@fat">Démo</button>
+            </li>
+            <li>
+              <!-- Bouton PWA -->
+              <button class="nav-link px-lg-4 px-2 btnInstall text-center" id="btnInstall" aria-label="Install" hidden>
+                Installer RESO People inc.
+                <i class="fa-solid fa-download"></i>
+              </button>
+            </li>
           </ul>
         </div>
-  </div>
+      </div>
     </nav>
 
 
@@ -76,8 +83,8 @@
         <div class="modal-content modal__bg">
           <div class="modal-header text-center">
             <div class=" w-100">
-            <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
-          </div>
+              <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
+            </div>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
@@ -85,14 +92,16 @@
 
             <form id="formModal" action="confirmation.html">
               <div class="input-control d-flex align-items-center">
-                <label for="emailModal" class="form-label modalText ">Entrer votre courriel pour recevoir notre démo People<span>*</span></label>
-                <input type="email" class="form-control w-50" id="emailModal" name="emailModal" placeholder="xyz@mail.com">
+                <label for="emailModal" class="form-label modalText ">Entrer votre courriel pour recevoir notre démo
+                  People<span>*</span></label>
+                <input type="email" class="form-control w-50" id="emailModal" name="emailModal"
+                  placeholder="xyz@mail.com">
               </div>
             </form>
           </div>
 
           <div class="d-flex flex-row-reverse m-5">
-              <button type="submit" class="btn contactBtn ">Envoyer</button>
+            <button type="submit" class="btn contactBtn ">Envoyer</button>
           </div>
         </div>
       </div>
@@ -106,16 +115,18 @@
         <div class="row d-flex flex-column align-items-center">
           <div class="col-12 col-lg-8 text-center">
             <div class="animationOpacity">
-            <h2> Créer votre application web simplement et
-              à moindre coût.
-            </h2>
-            <p class="introText__size">Notre Solution peut répondre à tous vos besoins, nous mettons à votre disposition
-              une plateforme informatique avec plusieurs modules.</p>
+              <h2> Créer votre application web simplement et
+                à moindre coût.
+              </h2>
+              <p class="introText__size">Notre Solution peut répondre à tous vos besoins, nous mettons à votre
+                disposition
+                une plateforme informatique avec plusieurs modules.</p>
             </div>
             <img class="introImg animationLeft" src="./img/image-accueil.png" alt="Image de présentation application">
           </div>
           <div class="col-12  text-center ">
-            <button type="button" class="btn introBtn animationRight" data-bs-toggle="modal" data-bs-target="#demoModal" data-bs-whatever="@fat">Demander une démo</button>
+            <button type="button" class="btn introBtn animationRight" data-bs-toggle="modal" data-bs-target="#demoModal"
+              data-bs-whatever="@fat">Demander une démo</button>
           </div>
         </div>
       </div>
@@ -127,7 +138,8 @@
         <div class="card need__card pt-5 pb-5">
           <div class="row d-flex align-items-center ">
             <div class="col-lg-4">
-              <img src="./img/need/img-need3.png" class="img-fluid rounded-start" alt="Image illustration répondre aux besoins de votre organisation">
+              <img src="./img/need/img-need3.png" class="img-fluid rounded-start"
+                alt="Image illustration répondre aux besoins de votre organisation">
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -137,20 +149,22 @@
                   Pour répondre à vos besoins multiples et simplifier la création de vos solution, RESO People vous
                   propose une solution clé en main à moindre coût.
                 </p>
-                <a class="needCard__link" href="solution.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+                <a class="needCard__link" href="solution.html">En savoir plus <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-    <div class="container d-flex flex-column align-items-center">
-      <div class="line__horizontal"></div>
-    </div>
+        <div class="container d-flex flex-column align-items-center">
+          <div class="line__horizontal"></div>
+        </div>
 
         <div class="card need__card pb-5">
           <div class="row d-flex align-items-center flex-row-reverse">
             <div class="col-lg-4">
-              <img src="./img/need/img-need1.png" class="img-fluid rounded-start" alt="Image illustration contrôler et maîtriser l’information">
+              <img src="./img/need/img-need1.png" class="img-fluid rounded-start"
+                alt="Image illustration contrôler et maîtriser l’information">
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -161,21 +175,23 @@
                   aucun effort,
                   ni contrainte technique car vos espaces sont hébergés et maintenus par nos équipes.
                 </p>
-                <a class="needCard__link" href="solution.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+                <a class="needCard__link" href="solution.html">En savoir plus <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        
-    <div class="container d-flex flex-column align-items-center">
-      <div class="line__horizontal"></div>
-    </div>
+
+        <div class="container d-flex flex-column align-items-center">
+          <div class="line__horizontal"></div>
+        </div>
 
         <div class="card need__card pt-5 pb-5">
           <div class="row d-flex align-items-center">
             <div class="col-lg-4">
-              <img src="./img/need/img-need2.png" class="img-fluid rounded-start" alt="Image illustration exploitation des données">
+              <img src="./img/need/img-need2.png" class="img-fluid rounded-start"
+                alt="Image illustration exploitation des données">
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -184,7 +200,8 @@
                   Toutes les plateformes web de RESO People, possèdent une des solution d'analyse de données, les plus
                   puissantes du marché.
                 </p>
-                <a class="needCard__link" href="solution.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+                <a class="needCard__link" href="solution.html">En savoir plus <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -192,18 +209,20 @@
       </div>
     </section>
 
-<section id="aventageSection">
-  <div class="container">
-    
-  </div>
-</section>
+    <section id="aventageSection">
+      <div class="container">
+
+      </div>
+    </section>
 
     <section id="partnerSection">
       <div class="container">
         <div class="mb-5 text-center">
           <h3 class=" mb-5 mt-5">Nos partenaires</h3>
-          <p>Aujourd’hui, il y a une vingtaine d'entreprises qui utilisent notre plateforme avec différents modules People.
-            Notre dernier client, Réseautage Montréal, utilise People pour optimiser le réseautage entre ses membres pour qu'ils restent à l'affût des opportunités d'affaires en tout temps.
+          <p>Aujourd’hui, il y a une vingtaine d'entreprises qui utilisent notre plateforme avec différents modules
+            People.
+            Notre dernier client, Réseautage Montréal, utilise People pour optimiser le réseautage entre ses membres
+            pour qu'ils restent à l'affût des opportunités d'affaires en tout temps.
           </p>
 
           <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
@@ -300,14 +319,14 @@
   <script>
     // Register service worker.
     if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-    navigator.serviceWorker.register('service-worker.js')
-    .then((reg) => {
-    console.log('Le service worker est chargé !', reg);
-    });
-    });
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then((reg) => {
+            console.log('Le service worker est chargé !', reg);
+          });
+      });
     }
-    </script>
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
@@ -320,4 +339,5 @@
 
   <script src="js/install.js"></script>
 </body>
+
 </html>

@@ -144,12 +144,7 @@ header {
 }
 
 .btnInstall {
-  border: none;
   color: #c1d7ff;
-}
-.btnInstall:hover {
-  color: #0c3772;
-  text-decoration: underline;
 }
 
 .navbar__bg {
