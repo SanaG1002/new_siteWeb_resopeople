@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v22';
+const CACHE_NAME = 'static-cache-v23';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -17,7 +17,7 @@ const FILES_TO_CACHE = [
     'img/conf-message.png',
     'img/image-accueil.png',
     'img/img-people-dynam1.png',
-    'img/img-people-dynam1.png',
+    'img/img-people-dynam2.png',
     'img/wave-entreprise.png',
     'img/wave-price.png',
     'img/wave-solution.png',
@@ -43,9 +43,9 @@ const FILES_TO_CACHE = [
     'product/icon-module.png',
     'product/icon-security.png',
     'product/icon-team-work.png',
-    'team/MatthieuSymoens.png',
-    'team/SanaGhariani.png',
-    'team/SergeBouzid.png',
+    'team/MatthieuSymoens.jpg',
+    'team/SanaGhariani.jpg',
+    'team/SergeBouzid.jpg',
     'scripts/validation.js'
 ];
 
