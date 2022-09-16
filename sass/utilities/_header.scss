@@ -5,6 +5,18 @@ header {
   background-color: variables.$color-grey2;
 }
 
+.navBtnInstall{
+    color: variables.$color-black;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 20px;
+    margin: 10px;
+    &:hover {
+      background-color: variables.$color-grey2;
+  }
+  }
+
+
 .navbar__bg{
   background-color: variables.$color-grey2;
 }

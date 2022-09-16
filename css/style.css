@@ -143,6 +143,17 @@ header {
   background-color: #495560;
 }
 
+.navBtnInstall {
+  color: black;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 20px;
+  margin: 10px;
+}
+.navBtnInstall:hover {
+  background-color: #495560;
+}
+
 .navbar__bg {
   background-color: #495560;
 }
