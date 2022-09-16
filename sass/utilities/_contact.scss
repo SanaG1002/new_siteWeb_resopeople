@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'typography';
 
+
 #contactSection {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -42,7 +43,6 @@ textarea {
 .input-control input:focus {
     outline: 0;
 }
-
 
 .input-control.success input {
     border:3px solid green;

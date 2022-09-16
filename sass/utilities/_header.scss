@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'typography';
 
+
 header {
   background-color: variables.$color-grey2;
 }
@@ -13,9 +14,8 @@ header {
     margin: 10px;
     &:hover {
       background-color: variables.$color-grey2;
+    }
   }
-  }
-
 
 .navbar__bg{
   background-color: variables.$color-grey2;
@@ -36,7 +36,6 @@ header {
   display: flex;
   align-items: baseline;
   border-radius: 50px;
-
   &:hover {
       @extend%menuNavlinkhover;
       color: variables.$color-black;

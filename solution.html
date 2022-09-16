@@ -15,12 +15,14 @@
 <body>
   <!-- Menu -->
   <header>
-    
     <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
       <div class="container-fluid">
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
-         <h1><a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
-          <!-- Partie menu : bouton responsive -->
+          <h1>
+            <a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a>
+          </h1>
+
+          <!-- Bouton responsive -->
           <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -28,54 +30,66 @@
           </button>
         </div>
 
-        <!-- Partie menu : items du menu -->
+        <!-- Items du menu -->
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
             <li>
-              <a class="menuNav__link menuNav__hover" href="solution.html">Solution</a></li>
+              <a class="menuNav__link menuNav__hover" href="solution.html">Solution</a>
+            </li>
             <li>
-              <a class="menuNav__link" href="prix.html">Prix</a></li>
+              <a class="menuNav__link" href="prix.html">Prix</a>
+            </li>
             <li>
               <a class="menuNav__link" href="entreprise.html">Entreprise</a>
             </li>
             <li>
-              <a class="menuNav__link" href="contact.html">Contact</a></li>
+              <a class="menuNav__link" href="contact.html">Contact</a>
+            </li>
             <li>
-              <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal" data-bs-whatever="@fat">Démo</button>
- 
+              <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal"
+                data-bs-whatever="@fat">
+                Démo
+              </button>
+            </li>
           </ul>
         </div>
-        
-  </div>
+      </div>
     </nav>
 
+    <!-- Modal bouton démo -->
     <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content modal__bg">
           <div class="modal-header text-center">
             <div class=" w-100">
-            <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
-          </div>
+              <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
+            </div>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
           <div class="modal-body p-5 ">
-
             <form id="formModal" action="confirmation.html">
               <div class="input-control d-flex align-items-center">
-                <label for="emailModal" class="form-label modalText ">Entrer votre courriel pour recevoir notre démo People<span>*</span></label>
-                <input type="email" class="form-control w-50" id="emailModal" name="emailModal" placeholder="xyz@mail.com">
+                <label for="emailModal" class="form-label modalText ">
+                  Entrer votre courriel pour recevoir notre démo People<span>*</span>
+                </label>
+                <input type="email" class="form-control w-50" id="emailModal" name="emailModal"
+                  placeholder="xyz@mail.com">
               </div>
             </form>
           </div>
 
           <div class="d-flex flex-row-reverse m-5">
-              <button type="submit" class="btn contactBtn ">Envoyer</button>
+            <button type="submit" class="btn contactBtn ">
+              Envoyer
+            </button>
           </div>
         </div>
       </div>
     </div>
   </header>
+
 
   <main>
     <section id="presentationSection">
@@ -85,8 +99,10 @@
             <div class="side left"></div>
             <div class="side right"></div>
             <div class="wrapper">
-              <img class="front image" src="./img/img-people-dynam1.png" alt="Image d'illustration dynamique outil People">
-              <img class="back image" src="./img/img-people-dynam2.png" alt="Image d'illustration dynamique outil People">
+              <img class="front image" src="./img/img-people-dynam1.png"
+                alt="Image d'illustration dynamique outil People">
+              <img class="back image" src="./img/img-people-dynam2.png"
+                alt="Image d'illustration dynamique outil People">
             </div>
           </div>
           <div class="col-12 offset-md-1 col-md-6 ">
@@ -102,97 +118,116 @@
     </section>
 
     <section id="descriptionSelection">
-      <div class="container">
-        <div class="card-group">
+      <div class="card-group">
 
-          <div class="row d-flex justify-content-center text-center">
-            <h3 class="mb-5 mt-5">Répondre à vos différents besoins</h3>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-comunication.png" class="descriptionCard__img " alt="Image illustration communication">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Communication</h4>
-                <p class="card-text">Utilisez des outils de communication instinctifs dans une seule plateforme pour
-                  optimiser vos échanges et centraliser vos informations.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-team-work.png" class="descriptionCard__img" alt="Image illustration travail collaboratif">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Travail collaboratif</h4>
-                <p class="card-text">Créez votre plateforme de travail optimisée, avec différents modules connectés pour
-                  permettre et faciliter le travail collaboratif.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-module.png" class=" descriptionCard__img" alt="Image illustration module à la carte">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Module à la carte</h4>
-                <p class="card-text">Choisissez ou créez, en tout temps, des modules qui répondent à vos problématiques
-                  et personnalisez votre plateforme en fonction de vos besoins évolutifs.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-api.png" class="descriptionCard__img" alt="Image illustration connecter vos applications">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Connecter vos applications</h4>
-                <p class="card-text">Bénéficiez de notre API et connectez vos applications externes à votre plateforme
-                  pour optimiser vos outils de travail.</p>
-              </div>
-            </div>
+        <div class="row d-flex justify-content-center text-center">
 
-            <h3 class="mb-5 mt-5">Contrôle et maitrise de l'information</h3>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-configuration.png" class="descriptionCard__img" alt="Image illustration configuration">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Configuration</h4>
-                <p class="card-text">Accédez à un large choix de configuration en créant vos politiques de communication
-                  et d’accès aux données pour maîtriser votre plateforme.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-moderation.png" class=" descriptionCard__img" alt="Image illustration modération du contenu">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Modération du contenu</h4>
-                <p class="card-text">Accédez et modérez tout le contenu de votre plateforme, pour contrôler votre image
-                  en tout temps.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-security.png" class=" descriptionCard__img" alt="Image illustration sécurité">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Sécurité</h4>
-                <p class="card-text">Profitez d’une sécurité maximale, avec un espace qui vous est entièrement dédié et
-                  une gestion totale de votre plateforme par nos équipes.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-customization.png" class=" descriptionCard__img" alt="Image illustration personnalisation">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Personnalisation</h4>
-                <p class="card-text">Personnalisez entièrement le design de votre plateforme pour garder votre identité
-                  visuelle et valoriser votre image.</p>
-              </div>
-            </div>
+          <h3 class="mb-5 mt-5">Répondre à vos différents besoins</h3>
 
-            <h3 class="mb-5 mt-5">Exploitation des données</h3>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-data-storage.png" class=" descriptionCard__img" alt="Image illustration stockage des données">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Stockage des données</h4>
-                <p class="card-text">Centralisez vos données en une seule et même plateforme pour que l’information soit
-                  stockée en toute sécurité et prête à être exploitée.</p>
-              </div>
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-comunication.png" class="descriptionCard__img "
+              alt="Image illustration communication">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Communication</h4>
+              <p class="card-text">Utilisez des outils de communication instinctifs dans une seule plateforme pour
+                optimiser vos échanges et centraliser vos informations.</p>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
-              <img src="./img/product/icon-analysis.png" class="descriptionCard__img" alt="Image illustration analyses personnalisées">
-              <div class="card-body text-center">
-                <h4 class="card-title descriptionCard__title">Analyses personnalisées</h4>
-                <p class="card-text">Utilisez les données de votre plateforme en effectuant des analyses personnalisées
-                  pour augmenter votre productivité et prendre les meilleures décisions.</p>
-              </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-team-work.png" class="descriptionCard__img"
+              alt="Image illustration travail collaboratif">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Travail collaboratif</h4>
+              <p class="card-text">Créez votre plateforme de travail optimisée, avec différents modules connectés pour
+                permettre et faciliter le travail collaboratif.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-module.png" class=" descriptionCard__img"
+              alt="Image illustration module à la carte">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Module à la carte</h4>
+              <p class="card-text">Choisissez ou créez, en tout temps, des modules qui répondent à vos problématiques
+                et personnalisez votre plateforme en fonction de vos besoins évolutifs.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-api.png" class="descriptionCard__img"
+              alt="Image illustration connecter vos applications">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Connecter vos applications</h4>
+              <p class="card-text">Bénéficiez de notre API et connectez vos applications externes à votre plateforme
+                pour optimiser vos outils de travail.</p>
+            </div>
+          </div>
+
+          <h3 class="mb-5 mt-5">Contrôle et maitrise de l'information</h3>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-configuration.png" class="descriptionCard__img"
+              alt="Image illustration configuration">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Configuration</h4>
+              <p class="card-text">Accédez à un large choix de configuration en créant vos politiques de communication
+                et d’accès aux données pour maîtriser votre plateforme.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-moderation.png" class=" descriptionCard__img"
+              alt="Image illustration modération du contenu">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Modération du contenu</h4>
+              <p class="card-text">Accédez et modérez tout le contenu de votre plateforme, pour contrôler votre image
+                en tout temps.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-security.png" class=" descriptionCard__img" alt="Image illustration sécurité">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Sécurité</h4>
+              <p class="card-text">Profitez d’une sécurité maximale, avec un espace qui vous est entièrement dédié et
+                une gestion totale de votre plateforme par nos équipes.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-customization.png" class=" descriptionCard__img"
+              alt="Image illustration personnalisation">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Personnalisation</h4>
+              <p class="card-text">Personnalisez entièrement le design de votre plateforme pour garder votre identité
+                visuelle et valoriser votre image.</p>
+            </div>
+          </div>
+
+          <h3 class="mb-5 mt-5">Exploitation des données</h3>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-data-storage.png" class=" descriptionCard__img"
+              alt="Image illustration stockage des données">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Stockage des données</h4>
+              <p class="card-text">Centralisez vos données en une seule et même plateforme pour que l’information soit
+                stockée en toute sécurité et prête à être exploitée.</p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-analysis.png" class="descriptionCard__img"
+              alt="Image illustration analyses personnalisées">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Analyses personnalisées</h4>
+              <p class="card-text">Utilisez les données de votre plateforme en effectuant des analyses personnalisées
+                pour augmenter votre productivité et prendre les meilleures décisions.</p>
             </div>
           </div>
         </div>
+      </div>
     </section>
   </main>
 
@@ -230,13 +265,13 @@
             </address>
             <ul class=" socialNetwork__icon mt-5">
               <li>
-                <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/facebook.png"
+                <a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/facebook.png"
                     alt="Lien facebook"></a>
               </li>
-              <li><a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/instagram.png"
+              <li><a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/instagram.png"
                     alt="Lien instagram"></a>
               </li>
-              <li> <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/twitter.png"
+              <li> <a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/twitter.png"
                     alt="Lien tweeter"></a>
               </li>
             </ul>
@@ -252,11 +287,14 @@
     </div>
   </footer>
 
+  <!-- Script bootstrap 5-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Script fontawesome-->
+  <script src="https://kit.fontawesome.com/6bf57fc038.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

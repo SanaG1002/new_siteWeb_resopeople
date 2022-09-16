@@ -15,67 +15,81 @@
 <body>
     <!-- Menu -->
     <header>
-    
-        <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
-          <div class="container-fluid">
-            <div class="d-flex flex-row align-items-center justify-content-between w-100">
-             <h1><a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
-              <!-- Partie menu : bouton responsive -->
-              <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-    
-            <!-- Partie menu : items du menu -->
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
-                <li>
-                  <a class="menuNav__link" href="solution.html">Solution</a></li>
-                <li>
-                  <a class="menuNav__link" href="prix.html">Prix</a></li>
-                <li>
-                  <a class="menuNav__link" href="entreprise.html">Entreprise</a>
-                </li>
-                <li>
-                  <a class="menuNav__link" href="contact.html">Contact</a></li>
-                <li>
-                  <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal" data-bs-whatever="@fat">Démo</button>
-     
-              </ul>
-            </div>
-            
-      </div>
-        </nav>
-    
-        <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content modal__bg">
-              <div class="modal-header text-center">
-                <div class=" w-100">
+      <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
+        <div class="container-fluid">
+          <div class="d-flex flex-row align-items-center justify-content-between w-100">
+            <h1>
+              <a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a>
+            </h1>
+  
+            <!-- Bouton responsive -->
+            <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+  
+          <!-- Items du menu -->
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
+              <li>
+                <a class="menuNav__link" href="solution.html">Solution</a>
+              </li>
+              <li>
+                <a class="menuNav__link" href="prix.html">Prix</a>
+              </li>
+              <li>
+                <a class="menuNav__link" href="entreprise.html">Entreprise</a>
+              </li>
+              <li>
+                <a class="menuNav__link" href="contact.html">Contact</a>
+              </li>
+              <li>
+                <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal"
+                  data-bs-whatever="@fat">
+                  Démo
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Modal bouton démo -->
+      <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content modal__bg">
+            <div class="modal-header text-center">
+              <div class=" w-100">
                 <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
               </div>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-    
-              <div class="modal-body p-5 ">
-    
-                <form id="formModal" action="confirmation.html">
-                  <div class="input-control d-flex align-items-center">
-                    <label for="emailModal" class="form-label modalText ">Entrer votre courriel pour recevoir notre démo People<span>*</span></label>
-                    <input type="email" class="form-control w-25" id="emailModal" name="emailModal" placeholder="xyz@mail.com">
-                  </div>
-                </form>
-              </div>
-    
-              <div class="d-flex flex-row-reverse m-5">
-                  <button type="submit" class="btn contactBtn ">Envoyer</button>
-              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+  
+            <div class="modal-body p-5 ">
+              <form id="formModal" action="confirmation.html">
+                <div class="input-control d-flex align-items-center">
+                  <label for="emailModal" class="form-label modalText ">
+                    Entrer votre courriel pour recevoir notre démo People<span>*</span>
+                  </label>
+                  <input type="email" class="form-control w-50" id="emailModal" name="emailModal"
+                    placeholder="xyz@mail.com">
+                </div>
+              </form>
+            </div>
+  
+            <div class="d-flex flex-row-reverse m-5">
+              <button type="submit" class="btn contactBtn ">
+                Envoyer
+              </button>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
+  
 
     <main>
         <!-- Partie menu : extention/presnetation -->

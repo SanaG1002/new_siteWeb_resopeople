@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'typography';
 
+
 #teamSection{
     padding: 50px;
     padding-bottom: 150px;
@@ -10,15 +11,16 @@
     border: none;
     position: relative;
 }
+
 .teamCard:hover .teamCard__overlay{
     opacity: 1;
 }
 
 .teamCard__img{
     width:200px;
-   clip-path:ellipse(50% 50%);
-   display: block;
-   cursor: pointer;
+    clip-path:ellipse(50% 50%);
+    display: block;
+    cursor: pointer;
 }
 
 .teamlogoLinkedin__img {
@@ -34,7 +36,6 @@
     cursor: pointer;
   }
 
-  
 .teamCard__overlay {
     position: absolute;
     height: 200px;

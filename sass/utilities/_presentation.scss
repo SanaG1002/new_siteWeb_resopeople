@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'typography';
 
+
 #presentationSection {
     background-image: url(../img/wave-solution.png);
     background-repeat: no-repeat;
@@ -15,7 +16,6 @@
 .presentationPeople__bloc{
   margin-top: 100px;
   margin-bottom: 150px;
-
 }
 
 .side {
@@ -53,27 +53,18 @@
     }
   }
 
-
   .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .image {
-    perspective: 200px;
-    transition: all .2s ease;
-    background-image: url('https://images.unsplash.com/photo-1504492729478-4ea346b648ae?dpr=1&auto=compress,format&fit=crop&w=376&h=502&q=80&cs=tinysrgb&crop=');
-    height: 300px;
-    width: 500px;
-    background-size: cover;
-    box-shadow: 0px 10px 50px rgba(0,0,0,0.8);
-  }
+  
   .front {
     margin-right: 50px;
     z-index: 1;
   }
-  .back {
+    .back {
     margin-left: 100px;
     margin-top: -150px;
     background-position: bottom;

@@ -15,12 +15,14 @@
 <body>
   <!-- Menu -->
   <header>
-    
     <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
       <div class="container-fluid">
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
-         <h1><a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a></h1>
-          <!-- Partie menu : bouton responsive -->
+          <h1>
+            <a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo RESO People"></a>
+          </h1>
+
+          <!-- Bouton responsive -->
           <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -28,49 +30,60 @@
           </button>
         </div>
 
-        <!-- Partie menu : items du menu -->
+        <!-- Items du menu -->
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
             <li>
-              <a class="menuNav__link" href="solution.html">Solution</a></li>
+              <a class="menuNav__link" href="solution.html">Solution</a>
+            </li>
             <li>
-              <a class="menuNav__link" href="prix.html">Prix</a></li>
+              <a class="menuNav__link" href="prix.html">Prix</a>
+            </li>
             <li>
               <a class="menuNav__link menuNav__hover" href="entreprise.html">Entreprise</a>
             </li>
             <li>
-              <a class="menuNav__link" href="contact.html">Contact</a></li>
+              <a class="menuNav__link" href="contact.html">Contact</a>
+            </li>
             <li>
-              <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal" data-bs-whatever="@fat">Démo</button>
- 
+              <button type="button" class="btn introBtn" data-bs-toggle="modal" data-bs-target="#demoModal"
+                data-bs-whatever="@fat">
+                Démo
+              </button>
+            </li>
           </ul>
         </div>
-        
-  </div>
+      </div>
     </nav>
 
+    <!-- Modal bouton démo -->
     <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content modal__bg">
           <div class="modal-header text-center">
             <div class=" w-100">
-            <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
-          </div>
+              <h3 class=" modalTitle " id="demoModalLabel">Démo People</h3>
+            </div>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
           <div class="modal-body p-5 ">
-
             <form id="formModal" action="confirmation.html">
               <div class="input-control d-flex align-items-center">
-                <label for="emailModal" class="form-label modalText ">Entrer votre courriel pour recevoir notre démo People<span>*</span></label>
-                <input type="email" class="form-control w-50" id="emailModal" name="emailModal" placeholder="xyz@mail.com">
+                <label for="emailModal" class="form-label modalText ">
+                  Entrer votre courriel pour recevoir notre démo People<span>*</span>
+                </label>
+                <input type="email" class="form-control w-50" id="emailModal" name="emailModal"
+                  placeholder="xyz@mail.com">
               </div>
             </form>
           </div>
 
           <div class="d-flex flex-row-reverse m-5">
-              <button type="submit" class="btn contactBtn ">Envoyer</button>
+            <button type="submit" class="btn contactBtn ">
+              Envoyer
+            </button>
           </div>
         </div>
       </div>
@@ -78,7 +91,6 @@
   </header>
 
   <main>
-    <!-- Partie menu : extention/presnetation -->
     <section id="entrepriseSection">
       <div class="container-fluid">
         <div class="row">
@@ -88,7 +100,6 @@
           </div>
           <div class="col-12 col-md-12 offset-lg-2 col-lg-4 pt-5 ">
             <h3>Notre histoire</h3>
-
             <p class="animationOpacity">RESO People est une entreprise spécialisée dans la conception de solutions
               informatiques innovantes,
               qui existe depuis plus de 5 ans. Créée par Serge Bouzid, développeur web depuis plus de 10 ans et grand
@@ -99,7 +110,6 @@
 
           <div class="col-12 col-md-12 col-lg-4 pt-5  ">
             <h3>Notre mission</h3>
-
             <p class="animationOpacity">Notre but est de mettre à votre disposition notre technologie,
               pour vous faire gagner du temps, de l'argent et ainsi garantir le succès de votre organisation.
               Grâce à notre solution clé en main, les contraintes liées au développement web comme les coûts,
@@ -114,7 +124,8 @@
       <div class="container">
         <div class=" pb-5 text-center">
           <h3>Nous sommes heureux de vous présenter notre équipe</h3>
-          <p>Grâce à notre équipe et notre savoir-faire, nous disposons d’une technologie propriétaire sans équivalent, complète et sécuritaire.</p>
+          <p>Grâce à notre équipe et notre savoir-faire, nous disposons d’une technologie propriétaire sans équivalent,
+            complète et sécuritaire.</p>
         </div>
 
         <div class="card-group pt-5">
@@ -122,8 +133,9 @@
             <div class="col-12 col-md-4 card teamCard d-flex align-items-center">
               <img src="./img/team/SergeBouzid.jpg" class="card-img-top teamCard__img" alt="Photo profil Serge Bouzid">
               <div class="teamCard__overlay">
-                <a href="https://www.linkedin.com/in/bouzidserge/?locale=en_US" target="_blank"> <img
-                    class="teamlogoLinkedin__img" src="./img/icon-social-network/linkedin-logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/bouzidserge/?locale=en_US" target="_blank"> 
+                  <img class="teamlogoLinkedin__img" src="./img/icon-social-network/linkedin-logo.png" alt="">
+                </a>
               </div>
               <div class="card-body text-center w-75">
                 <h4 class="card-title">Serge Bouzid</h4>
@@ -131,10 +143,12 @@
               </div>
             </div>
             <div class="col-12 col-md-4 card teamCard d-flex align-items-center">
-              <img src="./img/team/SanaGhariani.jpg" class="card-img-top teamCard__img" alt="Photo profil Sana Ghariani">
+              <img src="./img/team/SanaGhariani.jpg" class="card-img-top teamCard__img"
+                alt="Photo profil Sana Ghariani">
               <div class="teamCard__overlay">
-                <a href="https://www.linkedin.com/in/gharianisana/" target="_blank"> <img
-                    class="teamlogoLinkedin__img" src="./img/icon-social-network/linkedin-logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/gharianisana/" target="_blank"> 
+                  <img class="teamlogoLinkedin__img" src="./img/icon-social-network/linkedin-logo.png" alt="">
+                </a>
               </div>
               <div class="card-body text-center w-75">
                 <h4 class="card-title">Sana Ghariani</h4>
@@ -142,10 +156,12 @@
               </div>
             </div>
             <div class="col-12 col-md-4 card teamCard d-flex align-items-center">
-              <img src="./img/team/MatthieuSymoens.jpg" class="card-img-top teamCard__img" alt="Photo profil Matthieu Symoens">
+              <img src="./img/team/MatthieuSymoens.jpg" class="card-img-top teamCard__img"
+                alt="Photo profil Matthieu Symoens">
               <div class="teamCard__overlay">
-                <a href="https://www.linkedin.com/in/bouzidserge/?locale=en_US" target="_blank"> <img
-                    class="teamlogoLinkedin__img" src="./img/icon-social-network/linkedin-logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/bouzidserge/?locale=en_US" target="_blank"> 
+                  <img class="teamlogoLinkedin__img" src="./img/icon-social-network/linkedin-logo.png" alt="">
+                </a>
               </div>
               <div class="card-body text-center w-75">
                 <h4 class="card-title">Matthieu Symoens</h4>
@@ -160,8 +176,7 @@
   </main>
 
   <!-- Pied de page -->
-   <!-- Pied de page -->
-   <footer>
+  <footer>
     <div class="container">
       <div class="row p-5">
         <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-justify pt-2">
@@ -194,13 +209,13 @@
             </address>
             <ul class=" socialNetwork__icon mt-5">
               <li>
-                <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/facebook.png"
+                <a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/facebook.png"
                     alt="Lien facebook"></a>
               </li>
-              <li><a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/instagram.png"
+              <li><a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/instagram.png"
                     alt="Lien instagram"></a>
               </li>
-              <li> <a class="footerList__link" href=""> <img class="w-75" src="./img/icon-social-network/twitter.png"
+              <li> <a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/twitter.png"
                     alt="Lien tweeter"></a>
               </li>
             </ul>
@@ -216,12 +231,14 @@
     </div>
   </footer>
 
-
+  <!-- Script bootstrap 5-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Script fontawesome-->
+  <script src="https://kit.fontawesome.com/6bf57fc038.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

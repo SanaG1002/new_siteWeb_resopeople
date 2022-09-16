@@ -3,14 +3,12 @@
 
 
 #priceSection{
- 
     background-image: url(../img/wave-price.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
     padding: 50px;
 }
-
 
 td, th{
     text-align: center;
@@ -28,6 +26,13 @@ td, th{
 
 .priceTable {
     padding-top: 200px;
+}
+
+.priceTable__title {
+    font-size: 25px;
+    font-weight: 600; 
+    color: variables.$color-black;
+    font-family: variables.$font-fam2;
 }
 
 .priceTableResponsive__title {

@@ -4,15 +4,12 @@
 
 footer {
   background-color: variables.$color-grey;
-
 }
-
 
 .footerLogo {
   width: 150px;
   margin-bottom: 20px;
 }
-
 
 .footerLine__vertical{
   border-right: 1px solid variables.$color-grey3;
@@ -24,7 +21,7 @@ footer {
   &:hover {
     color: variables.$color-grey2;
     text-decoration: underline;
-}
+  }
 }
 
 .footerPresentation__color {

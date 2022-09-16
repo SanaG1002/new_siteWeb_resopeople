@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'typography';
 
+
 #needSection {
     background-color: variables.$color-white;
     padding: 50px;
@@ -12,6 +13,4 @@
 
 .needCard__link {
     @extend%linkCard;
-
-
 }
