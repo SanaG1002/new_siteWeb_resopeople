@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v30';
+const CACHE_NAME = 'static-cache-v31';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -12,7 +12,7 @@ const FILES_TO_CACHE = [
     'confirmation.html',
     'css/style.css',
     'css/normalize.css',
-    'scripts/validation.js',
+    'js/validation.js',
     'img/logo.png',
     'img/conf-message.png',
     'img/image-accueil.png',

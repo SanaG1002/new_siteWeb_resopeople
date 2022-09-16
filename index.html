@@ -30,7 +30,13 @@
     <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
       <div class="container-fluid">
         <div class="d-flex flex-row align-items-center justify-content-between w-100">
+           
+       <!-- Logo -->
         <h1><img class="logo" src="./img/logo.png" alt="Logo RESO People"></h1>
+
+        <!-- Bouton PWA -->
+        <button class="nav-link px-lg-4 px-2" id="btnInstall" aria-label="Install" hidden>Installer RESO People inc.</button>
+
           <!-- Partie menu : bouton responsive -->
           <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -308,6 +314,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/6bf57fc038.js" crossorigin="anonymous"></script>
 
-  <script src="scripts/validation.js"></script>
+  <script src="js/validation.js"></script>
+
+  <script src="js/install.js"></script>
 </body>
 </html>
