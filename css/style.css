@@ -144,18 +144,18 @@ header {
 }
 
 .btnInstall {
-  background-color: #c1d7ff;
+  background-color: #0f4a9b;
+  border-color: #0f4a9b;
   color: black;
-  font-size: 23px;
-  border-radius: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px;
   margin-right: 20px;
 }
 .btnInstall:hover {
-  background-color: #0f4a9b;
+  background-color: #0c3772;
   color: white;
-  border-color: #0f4a9b;
+  border-color: #0c3772;
 }
 
 .navbar__bg {
