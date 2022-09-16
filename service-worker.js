@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v28';
+const CACHE_NAME = 'static-cache-v29';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -25,6 +25,27 @@ const FILES_TO_CACHE = [
     'img/icon-social-network/instagram.png',
     'img/icon-social-network/linkedin-logo.png',
     'img/icon-social-network/twitter.png',
+    'img/need/img-need1.png',
+    'img/need/img-need2.png',
+    'img/need/img-need3.png',
+    'img/partner/aqt.png',
+    'img/partner/gestiplan.png',
+    'img/partner/pme-montreal.jpg',
+    'img/partner/reseautage_montreal.png',
+    'img/partner/simplevu.png',
+    'img/product/icon-analysis.png',
+    'img/product/icon-api.png',
+    'img/product/icon-comunication.png',
+    'img/product/icon-configuration.png',
+    'img/product/icon-customization.png',
+    'img/product/icon-data-storage.png',
+    'img/product/icon-moderation.png',
+    'img/product/icon-module.png',
+    'img/product/icon-security.png',
+    'img/product/icon-team-work.png',
+    'img/team/MatthieuSymoens.jpg',
+    'img/team/SanaGhariani.jpg',
+    'img/team/SergeBouzid.jpg'
 ];
 
 self.addEventListener('install', (evt) => {
