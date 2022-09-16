@@ -162,7 +162,12 @@ header {
 }
 
 .btnInstall {
-  padding: 10px;
+  padding: 5px;
+  background-color: #c1d7ff;
+}
+
+.textInstall {
+  color: #c1d7ff;
 }
 
 .navbar__bg {

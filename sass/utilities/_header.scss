@@ -10,7 +10,12 @@ header {
 }
 
 .btnInstall {
-  padding: 10px;
+  padding: 5px;
+  background-color: variables.$color-blue2;
+}
+
+.textInstall{
+  color: variables.$color-blue2;
 }
 
 .navbar__bg{
