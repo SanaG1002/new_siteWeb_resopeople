@@ -45,8 +45,7 @@ const FILES_TO_CACHE = [
     'product/icon-team-work.png',
     'team/MatthieuSymoens.jpg',
     'team/SanaGhariani.jpg',
-    'team/SergeBouzid.jpg',
-    'scripts/validation.js'
+    'team/SergeBouzid.jpg'
 ];
 
 self.addEventListener('install', (evt) => {
