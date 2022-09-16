@@ -6,7 +6,11 @@ header {
 }
 
 .btnInstall {
-    color: variables.$color-blue2;
+    color: variables.$color-grey2;;
+    border: none;
+    background: none;
+    width: 250px;
+    font-size: 18px;
   }
 
 
