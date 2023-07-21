@@ -16,6 +16,5 @@ Dans le cadre de ma formation de développeur Web Front End, j'ai réalisé un s
 # SANA GHARIANI 
 # Groupe 1041
 
-# Lien du site vers la page de présentation : https://sanag1002.github.io/tp3_site_resopeople/
-
+# Lien du site vers la page de présentation : [https://sanag1002.github.io/new_siteWeb_resopeople/]
 
